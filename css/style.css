@@ -5,10 +5,13 @@ body {
 
 #banner {
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  text-transform: uppercase; }
 
 #social {
-  float: right; }
+  float: right;
+  margin-top: -60px;
+  margin-right: 30px; }
 
 #content {
   margin: auto;
