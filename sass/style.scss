@@ -1,0 +1,45 @@
+$police : 'Ubuntu', sans-serif;
+
+
+body {
+    background-color: darken(#252B37, 4%);
+    background-repeat: no-repeat;
+    font-family: $police;
+}
+
+#banner{
+    text-align: center;
+    color: #ffffff;
+}
+
+#social {
+    float:right;
+}
+
+#content {
+    margin: auto;
+    background-color: #ffffff;
+    width: 1100px;
+    min-height: 800px;
+}
+
+nav{
+    position: fixed;
+    left: 50%;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: -640px;
+    hr {
+        margin-left: -20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+    }
+}
+
+footer{
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: #1d212b;
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif; }
+
+#banner {
+  text-align: center;
+  color: #ffffff; }
+
+#social {
+  float: right; }
+
+#content {
+  margin: auto;
+  background-color: #ffffff;
+  width: 1100px;
+  min-height: 800px; }
+
+nav {
+  position: fixed;
+  left: 50%;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: -640px; }
+  nav hr {
+    margin-left: -20px; }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em; }
+
+footer {
+  text-align: center;
+  color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
