@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
         // loop
         loop: true,
         // false = infini
-        loopCount: 4,
+        loopCount: 5,
         // curseur (fait en css)
         showCursor: false,
         // curseur

@@ -22,20 +22,23 @@ body {
   #social a img {
     padding: 0.2em; }
     #social a img:hover {
-      opacity: 0.7; }
+      opacity: 0.7;
+      transform: scale(1.2); }
 
 nav {
   position: fixed;
   left: 50%;
   width: 150px;
   margin-top: 10px;
-  margin-left: -640px; }
+  margin-left: -650px; }
   nav hr {
     margin-left: -20px; }
   nav a {
     text-decoration: none;
     color: white;
     font-size: 1.2em; }
+    nav a:hover {
+      color: #50A6C2; }
 
 .element {
   font-family: "Montserrat", Helvetica, sans-serif;
@@ -73,10 +76,11 @@ nav {
     text-align: justify;
     background-color: #fafaed; }
     #content div h1 {
+      font-family: "Montserrat", Helvetica, sans-serif;
       font-size: 20px;
       display: inline-block;
-      margin-bottom: 0;
-      min-height: 50px; }
+      padding-top: 10px;
+      min-height: 45px; }
     #content div button.showMore {
       display: block;
       margin: 0 auto;
@@ -95,13 +99,18 @@ nav {
         color: #fff;
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset; }
     #content div div.newsMeta {
+      font-family: "Montserrat", Helvetica, Sans-serif;
       float: right;
       border: none;
       box-shadow: none; }
+      #content div div.newsMeta:hover {
+        transform: scale(1); }
     #content div div.newsPicture {
       width: 200px;
       height: 150px;
       float: left; }
+      #content div div.newsPicture:hover {
+        transform: scale(1); }
     #content div:hover {
       transform: scale(1.02); }
 
