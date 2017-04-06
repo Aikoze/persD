@@ -135,5 +135,8 @@ footer {
   #contactForm h3 {
     margin-top: 0;
     font-family: "Montserrat", Helvetica, sans-serif; }
+  #contactForm #form-main {
+    text-align: center;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
