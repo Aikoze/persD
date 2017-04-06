@@ -120,4 +120,20 @@ footer {
   text-align: center;
   color: #ffffff; }
 
+/* ++++++++++++++++++++++++ PAGE CONTACT ++++++++++++++++++++ */
+#contactForm {
+  color: white;
+  margin: auto;
+  width: 1100px;
+  min-height: 600px;
+  padding-top: 30px;
+  text-align: center;
+  border-left: 1px solid white;
+  padding-left: 1em; }
+  #contactForm h2 {
+    font-family: "Ubuntu", Helvetica, sans-serif; }
+  #contactForm h3 {
+    margin-top: 0;
+    font-family: "Montserrat", Helvetica, sans-serif; }
+
 /*# sourceMappingURL=style.css.map */
