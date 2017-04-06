@@ -7,10 +7,11 @@ $(window).scroll(function() {
     }
 
     if (height < 50) {
-        document.getElementById("navMenu").setAttribute("style", "margin-top: 0");
+        document.getElementById("navMenu").setAttribute("style", "");
     }
 });
 
+/* Display des news en plein écran */
 function fullDisplayOne() {
     var x = document.getElementsByClassName("showMore");
     x[0].style.display = "none";
