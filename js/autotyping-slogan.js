@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function(){
         backDelay: 500,
         // loop
         loop: true,
-        // false = infini
-        loopCount: 5,
+        // false = infini, 5 = 5 tours
+        loopCount: false,
         // curseur (fait en css)
         showCursor: false,
         // curseur

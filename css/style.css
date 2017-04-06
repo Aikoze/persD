@@ -80,7 +80,8 @@ nav {
       font-size: 20px;
       display: inline-block;
       padding-top: 10px;
-      min-height: 45px; }
+      min-height: 45px;
+      color: #00004c; }
     #content div button.showMore {
       display: block;
       margin: 0 auto;
