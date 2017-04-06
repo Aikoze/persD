@@ -1,3 +1,6 @@
+#navMenu a:nth-child(1) {
+  color: #50A6C2; }
+
 #feedback-page {
   text-align: center; }
 
@@ -28,7 +31,7 @@
 
 .feedback-input {
   opacity: 0.9;
-  color: #002b7f;
+  color: #00004c;
   font-family: 'Brandon Grotesque', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -47,8 +50,8 @@
 .feedback-input:focus {
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #002b7f;
-  color: #002b7f;
+  border: 3px solid #00004c;
+  color: #00004c;
   outline: none;
   padding: 13px 13px 13px 54px; }
 
@@ -103,7 +106,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor: pointer;
-  background-color: #002b7f;
+  background-color: #00004c;
   color: white;
   font-size: 24px;
   padding-top: 22px;
@@ -114,10 +117,10 @@ input:focus, textarea:focus {
 
 #button-blue:hover {
   background-color: transparent;
-  color: #002b7f; }
+  color: #00004c; }
 
 .submit:hover {
-  color: #002b7f; }
+  color: #00004c; }
 
 .ease {
   border-top: 3px #3c3c3c solid;
