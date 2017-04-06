@@ -31,18 +31,14 @@ nav {
   background-color: #ffffff;
   width: 1100px;
   min-height: 600px;
-  -webkit-column-count: 2;
-  /* Chrome, Safari, Opera */
-  -moz-column-count: 2;
-  /* Firefox */
-  column-count: 2; }
+  overflow: auto; }
   #content div {
-    border-style: solid;
-    border-radius: 10px;
-    margin-top: 60px;
-    height: 200px;
-    width: 450px;
-    margin-left: 40px; }
+    width: 44%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 4% 0 0 4%;
+    padding: 15px; }
 
 footer {
   text-align: center;
