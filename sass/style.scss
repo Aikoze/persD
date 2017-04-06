@@ -60,6 +60,8 @@ nav{
             text-align: justify;
                 h1{
                     font-size: 20px;
+                    display: inline-block;
+                    margin-bottom: 0;
                 }
                 button.showMore {
                     display: block;
@@ -74,6 +76,16 @@ nav{
                     color: #00004c;
                     font-weight: black;
                     text-transform: uppercase;
+                }
+                div.newsMeta {
+                    float: right;
+                    border: none;
+                    box-shadow: none;
+                }
+                div.newsPicture {
+                    width: 200px;
+                    height: 150px;
+                    float: left;
                 }
             // border-style:  solid ;
             // border-radius: 10px;
