@@ -1,12 +1,13 @@
 $police : 'Ubuntu', sans-serif;
 
-
+/* ++++ Règles générales +++++ */
 body {
     background-color: darken(#252B37, 4%);
     background-repeat: no-repeat;
     font-family: $police;
 }
 
+/* +++++ HEADER ++++++ */
 #banner{
     text-align: center;
     color: #ffffff;
@@ -35,11 +36,14 @@ nav{
     }
 }
 
+/* ++++++++++ ZONE CONTENU ++++++++ */
 #content {
     margin: auto;
     background-color: #ffffff;
     width: 1100px;
     min-height: 600px;
+    padding-bottom: 70px;
+    border-radius: 5px 5px 5px 5px;
     // -webkit-column-count: 2; /* Chrome, Safari, Opera */
     // -moz-column-count: 2; /* Firefox */
     // column-count: 2;
@@ -52,24 +56,35 @@ nav{
             border-radius: 10px;
             margin:4% 0 0 4%;
             padding: 15px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+            text-align: justify;
                 h1{
                     font-size: 20px;
                 }
-                button{
-                    text-align: center;
+                button.showMore {
+                    display: block;
+                    margin: 0 auto;
+                    border: solid 2px #00004c;
+                    border-radius: 5px 5px 5px 5px;
+                    font-family: $police;
+                    padding-top: -1px;
+                    padding-bottom: -1px;
+                    cursor: pointer;
+                    background-color: white;
+                    color: #00004c;
+                    font-weight: black;
+                    text-transform: uppercase;
                 }
-
             // border-style:  solid ;
             // border-radius: 10px;
             // margin-top: 60px;
             // height: 200px;
             // width: 450px;
             // margin-left: 40px;
-        }
-
+            }
 }
 
-
+/* +++++++++++ FOOTER +++++++++ */
 footer{
     text-align: center;
     color: #ffffff;

@@ -1,8 +1,11 @@
+@charset "UTF-8";
+/* ++++ Règles générales +++++ */
 body {
   background-color: #1d212b;
   background-repeat: no-repeat;
   font-family: "Ubuntu", sans-serif; }
 
+/* +++++ HEADER ++++++ */
 #banner {
   text-align: center;
   color: #ffffff;
@@ -26,11 +29,14 @@ nav {
     color: white;
     font-size: 1.2em; }
 
+/* ++++++++++ ZONE CONTENU ++++++++ */
 #content {
   margin: auto;
   background-color: #ffffff;
   width: 1100px;
   min-height: 600px;
+  padding-bottom: 70px;
+  border-radius: 5px 5px 5px 5px;
   overflow: auto; }
   #content div {
     width: 44%;
@@ -39,12 +45,26 @@ nav {
     border: 1px solid #000;
     border-radius: 10px;
     margin: 4% 0 0 4%;
-    padding: 15px; }
+    padding: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+    text-align: justify; }
     #content div h1 {
       font-size: 20px; }
-    #content div button {
-      text-align: center; }
+    #content div button.showMore {
+      display: block;
+      margin: 0 auto;
+      border: solid 2px #00004c;
+      border-radius: 5px 5px 5px 5px;
+      font-family: "Ubuntu", sans-serif;
+      padding-top: -1px;
+      padding-bottom: -1px;
+      cursor: pointer;
+      background-color: white;
+      color: #00004c;
+      font-weight: black;
+      text-transform: uppercase; }
 
+/* +++++++++++ FOOTER +++++++++ */
 footer {
   text-align: center;
   color: #ffffff; }
