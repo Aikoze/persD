@@ -1,36 +1,68 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/* ++++ Règles générales +++++ */
 body {
   background-color: #1d212b;
   background-repeat: no-repeat;
   font-family: "Ubuntu", sans-serif; }
 
+/* +++++ HEADER ++++++ */
 #banner {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase; }
+  #banner h1 {
+    letter-spacing: 0.2em;
+    margin-bottom: 10px; }
 
 #social {
   float: right;
-  margin-top: -60px;
-  margin-right: 30px; }
+  margin-top: -80px;
+  margin-right: 20px; }
+  #social a img {
+    padding: 0.2em; }
+    #social a img:hover {
+      opacity: 0.7;
+      transform: scale(1.2); }
 
 nav {
   position: fixed;
   left: 50%;
   width: 150px;
   margin-top: 10px;
-  margin-left: -640px; }
+  margin-left: -650px; }
   nav hr {
     margin-left: -20px; }
   nav a {
     text-decoration: none;
     color: white;
     font-size: 1.2em; }
+    nav a:hover {
+      color: #50A6C2; }
 
+.element {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  margin-bottom: 1em; }
+  .element::after {
+    content: '|';
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite; }
+
+/* ++++++++++ ZONE CONTENU ++++++++ */
 #content {
+  background-image: url("../images/blur-background.jpg");
+  background-size: cover;
   margin: auto;
-  background-color: #ffffff;
   width: 1100px;
   min-height: 600px;
+  padding-bottom: 70px;
+  border-radius: 5px 5px 5px 5px;
   overflow: auto; }
   #content div {
     width: 44%;
@@ -39,12 +71,51 @@ nav {
     border: 1px solid #000;
     border-radius: 10px;
     margin: 4% 0 0 4%;
-    padding: 15px; }
+    padding: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+    text-align: justify;
+    background-color: #fafaed; }
     #content div h1 {
-      font-size: 20px; }
-    #content div button {
-      text-align: center; }
+      font-family: "Montserrat", Helvetica, sans-serif;
+      font-size: 20px;
+      display: inline-block;
+      padding-top: 10px;
+      min-height: 45px;
+      color: #00004c; }
+    #content div button.showMore {
+      display: block;
+      margin: 0 auto;
+      border: solid 2px #00004c;
+      border-radius: 5px 5px 5px 5px;
+      font-family: 'Montserrat', Helvetica, sans-serif;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      cursor: pointer;
+      background-color: #ededed;
+      color: #00004c;
+      font-weight: black;
+      text-transform: uppercase; }
+      #content div button.showMore:hover {
+        background-color: #00004c;
+        color: #fff;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset; }
+    #content div div.newsMeta {
+      font-family: "Montserrat", Helvetica, Sans-serif;
+      float: right;
+      border: none;
+      box-shadow: none; }
+      #content div div.newsMeta:hover {
+        transform: scale(1); }
+    #content div div.newsPicture {
+      width: 200px;
+      height: 150px;
+      float: left; }
+      #content div div.newsPicture:hover {
+        transform: scale(1); }
+    #content div:hover {
+      transform: scale(1.02); }
 
+/* +++++++++++ FOOTER +++++++++ */
 footer {
   text-align: center;
   color: #ffffff; }
