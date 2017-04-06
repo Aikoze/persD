@@ -58,13 +58,17 @@ nav {
       border: solid 2px #00004c;
       border-radius: 5px 5px 5px 5px;
       font-family: "Ubuntu", sans-serif;
-      padding-top: -1px;
-      padding-bottom: -1px;
+      padding-top: 3px;
+      padding-bottom: 3px;
       cursor: pointer;
       background-color: white;
       color: #00004c;
       font-weight: black;
       text-transform: uppercase; }
+      #content div button.showMore:hover {
+        background-color: #00004c;
+        color: #fff;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset; }
     #content div div.newsMeta {
       float: right;
       border: none;
@@ -73,6 +77,8 @@ nav {
       width: 200px;
       height: 150px;
       float: left; }
+    #content div:hover {
+      transform: scale(1.02); }
 
 /* +++++++++++ FOOTER +++++++++ */
 footer {
