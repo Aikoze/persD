@@ -1,11 +1,15 @@
-var longueur = document.getElementByClassName("title");
-var titleOne = longueur.length;
+/* NAVBAR position fixée quand scroll de page en bas */
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
 
-if (titleOne.value < 44) {
-    longueur[0].innerHTML += "<br />";
-}
-else {
-}
+    if (height  > 150) {
+        document.getElementById("navMenu").setAttribute("style", "top: 10px; position: fixed");
+    }
+
+    if (height < 50) {
+        document.getElementById("navMenu").setAttribute("style", "margin-top: 0");
+    }
+});
 
 function fullDisplayOne() {
     var x = document.getElementsByClassName("showMore");
@@ -42,10 +46,3 @@ function fullDisplayFour() {
     document.getElementById("newsThree").style.display = "none";
     document.getElementById("newsOne").style.display = "none";
 }
-
-var test = "Interview avec XxYouenfr4g45xX joueur pro de";
-var testo = "Évolutions économiques et digitalisation des";
-var testii = testo.length;
-var testi = test.length;
-console.log(testi);
-console.log(testii);
