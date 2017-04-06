@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 /* ++++ Règles générales +++++ */
 body {
   background-color: #1d212b;
@@ -47,7 +48,8 @@ nav {
     margin: 4% 0 0 4%;
     padding: 15px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
-    text-align: justify; }
+    text-align: justify;
+    background-color: #fafaed; }
     #content div h1 {
       font-size: 20px;
       display: inline-block;
@@ -57,7 +59,7 @@ nav {
       margin: 0 auto;
       border: solid 2px #00004c;
       border-radius: 5px 5px 5px 5px;
-      font-family: "Ubuntu", sans-serif;
+      font-family: 'Montserrat', Helvetica, sans-serif;
       padding-top: 3px;
       padding-bottom: 3px;
       cursor: pointer;

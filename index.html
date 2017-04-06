@@ -25,48 +25,51 @@
         </nav>
         <div id="content">
 
-            <div>
+            <div id="newsOne" onclick="fullDisplayOne()">
                 <div class="newsPicture"></div>
                 <div class="newsMeta">
                     <p>Nom de l'auteur</p>
                     <p>Date de parution</p>
                 </div>
-                <h1>Évolutions économiques et digitalisation des métiers: de nouveaux Modèles économiques...</h1>
+                <h1 class="title">Kapersky pirate la Brandon Company</h1>
                 <p>Fusce eu cursus risus, at lobortis massa. Pellentesque cursus nisl risus, at pretium sapien mattis quis. Phasellus a leo eget urna ultrices venenatis ornare ac magna. Phasellus vitae neque ipsum. Vestibulum pharetra ligula ut ornare egestas. Donec convallis ex purus, et finibus ex pharetra vitae. Integer et diam viverra, placerat lorem vel, feugiat ligula. Maecenas metus arcu, condimentum quis accumsan at, cursus et quam. In feugiat erat nulla, rhoncus pretium elit blandit eu. Nam purus quam, placerat sed eros tincidunt, lacinia mattis nibh.</p>
-                <button class="showMore">Afficher plus...</button>
+                <button class="showMore" onclick="fullDisplayOne()">
+                    <!-- <img src="images/plus.svg" height="20px" width="20px" /><br /> au hover doit être blanche -->
+                    Afficher plus...
+                </button>
             </div>
 
-            <div>
+            <div id="newsTwo" onclick="fullDisplayTwo()">
                 <div class="newsPicture"></div>
                 <div class="newsMeta">
                     <p>Nom de l'auteur</p>
                     <p>Date de parution</p>
                 </div>
-                <h1>Évolutions économiques et digitalisation des métiers: de nouveaux Modèles économiques...</h1>
+                <h1 class="title">Interview avec XxYouenfr4g45xX joueur pro de RO</h1>
                 <p>Fusce eu cursus risus, at lobortis massa. Pellentesque cursus nisl risus, at pretium sapien mattis quis. Phasellus a leo eget urna ultrices venenatis ornare ac magna. Phasellus vitae neque ipsum. Vestibulum pharetra ligula ut ornare egestas. Donec convallis ex purus, et finibus ex pharetra vitae. Integer et diam viverra, placerat lorem vel, feugiat ligula. Maecenas metus arcu, condimentum quis accumsan at, cursus et quam. In feugiat erat nulla, rhoncus pretium elit blandit eu. Nam purus quam, placerat sed eros tincidunt, lacinia mattis nibh.</p>
-                <button class="showMore">Afficher plus...</button>
+                <button class="showMore" onclick="fullDisplayTwo()">Afficher plus...</button>
                 </div>
 
-            <div>
+            <div id="newsThree" onclick="fullDisplayThree()">
                 <div class="newsPicture"></div>
                 <div class="newsMeta">
                     <p>Nom de l'auteur</p>
                     <p>Date de parution</p>
                 </div>
-                <h1>Évolutions économiques et digitalisation des métiers: de nouveaux Modèles économiques...</h1>
+                <h1 class="title">Évolutions économiques et digitalisation des métiers: de nouveaux Modèles économiques...</h1>
                 <p>Fusce eu cursus risus, at lobortis massa. Pellentesque cursus nisl risus, at pretium sapien mattis quis. Phasellus a leo eget urna ultrices venenatis ornare ac magna. Phasellus vitae neque ipsum. Vestibulum pharetra ligula ut ornare egestas. Donec convallis ex purus, et finibus ex pharetra vitae. Integer et diam viverra, placerat lorem vel, feugiat ligula. Maecenas metus arcu, condimentum quis accumsan at, cursus et quam. In feugiat erat nulla, rhoncus pretium elit blandit eu. Nam purus quam, placerat sed eros tincidunt, lacinia mattis nibh.</p>
-                <button class="showMore">Afficher plus...</button>
+                <button class="showMore" onclick="fullDisplayThree()">Afficher plus...</button>
             </div>
 
-            <div>
+            <div id="newsFour" onclick="fullDisplayFour()">
                 <div class="newsPicture"></div>
                 <div class="newsMeta">
                     <p>Nom de l'auteur</p>
                     <p>Date de parution</p>
                 </div>
-                <h1>Évolutions économiques et digitalisation des métiers: de nouveaux Modèles économiques...</h1>
+                <h1 class="title">Jenson Button condamné à mort</h1>
                 <p>Fusce eu cursus risus, at lobortis massa. Pellentesque cursus nisl risus, at pretium sapien mattis quis. Phasellus a leo eget urna ultrices venenatis ornare ac magna. Phasellus vitae neque ipsum. Vestibulum pharetra ligula ut ornare egestas. Donec convallis ex purus, et finibus ex pharetra vitae. Integer et diam viverra, placerat lorem vel, feugiat ligula. Maecenas metus arcu, condimentum quis accumsan at, cursus et quam. In feugiat erat nulla, rhoncus pretium elit blandit eu. Nam purus quam, placerat sed eros tincidunt, lacinia mattis nibh.</p>
-                <button class="showMore">Afficher plus...</button>
+                <button class="showMore" onclick="fullDisplayFour()">Afficher plus...</button>
             </div>
 
         </div>
@@ -78,5 +81,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- JS pour display les news en plein écran --><script src="js/fulldisplay.js"></script>
+
 </body>
 </html>
