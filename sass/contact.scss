@@ -4,6 +4,9 @@ $navyblue : #00004c;
       a:last-child {
         color: #50A6C2;
       }
+      a:first-child {
+        color: white !important;
+      }
 }
 
 #feedback-page{
