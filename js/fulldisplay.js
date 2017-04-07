@@ -1,4 +1,4 @@
-/* NAVBAR position fixée quand scroll de page en bas */
+/* NAVBAR position fixée quand scroll de haut en bas */
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 
@@ -52,6 +52,8 @@ function fullDisplayFour() {
 }
 
 /* ++++++++++++ DISPLAY PROGRESSIF DES NEWS ++++++ */
+
+/* !!!!!!! A RECTIFIER : Apparition des div à l'exécution de la fonction fullDisplay() */
 $(function() {
     // fonction ci-dessous
     showDiv();
@@ -60,7 +62,7 @@ $(function() {
 function showDiv() {
     // Check si div cachées
     if($('div:hidden').length) {
-        // Effet sur la première trouvée
+        // Effet sur la première div en display:hidden trouvée
         $('div:hidden:first').fadeIn();
         // Temps d'attente avant effet sur la suivante
         setTimeout(showDiv, 700);
