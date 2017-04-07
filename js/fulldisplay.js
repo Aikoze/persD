@@ -11,38 +11,41 @@ $(window).scroll(function() {
     }
 });
 
-/* Display des news en plein écran */
+/* +++++ Display des news en plein écran +++++ */
+var plusBtn = document.getElementsByClassName("showMore");
+var homeBtn = document.getElementsByClassName("backHome");
+
 function fullDisplayOne() {
-    var x = document.getElementsByClassName("showMore");
-    x[0].style.display = "none";
-    document.getElementById("newsOne").setAttribute("style","width:1000px; height:500px; display:block");
+    plusBtn[0].style.display = "none";
+    homeBtn[0].style.display = "block";
+    document.getElementById("newsOne").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1)");
     document.getElementById("newsTwo").style.display = "none";
     document.getElementById("newsThree").style.display = "none";
     document.getElementById("newsFour").style.display = "none";
 }
 
 function fullDisplayTwo() {
-    var x = document.getElementsByClassName("showMore");
-    x[1].style.display = "none";
-    document.getElementById("newsTwo").setAttribute("style","width:1000px; height:500px; display:block");
+    plusBtn[1].style.display = "none";
+    homeBtn[1].style.display = "block";
+    document.getElementById("newsTwo").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1)");
     document.getElementById("newsOne").style.display = "none";
     document.getElementById("newsThree").style.display = "none";
     document.getElementById("newsFour").style.display = "none";
 }
 
 function fullDisplayThree() {
-    var x = document.getElementsByClassName("showMore");
-    x[2].style.display = "none";
-    document.getElementById("newsThree").setAttribute("style","width:1000px; height:500px; display:block");
+    plusBtn[2].style.display = "none";
+    homeBtn[2].style.display = "block";
+    document.getElementById("newsThree").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1)");
     document.getElementById("newsTwo").style.display = "none";
     document.getElementById("newsOne").style.display = "none";
     document.getElementById("newsFour").style.display = "none";
 }
 
 function fullDisplayFour() {
-    var x = document.getElementsByClassName("showMore");
-    x[3].style.display = "none";
-    document.getElementById("newsFour").setAttribute("style","width:1000px; height:500px; display:block");
+    plusBtn[3].style.display = "none";
+    homeBtn[3].style.display = "block";
+    document.getElementById("newsFour").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1)");
     document.getElementById("newsTwo").style.display = "none";
     document.getElementById("newsThree").style.display = "none";
     document.getElementById("newsOne").style.display = "none";

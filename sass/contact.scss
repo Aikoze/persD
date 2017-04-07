@@ -1,7 +1,7 @@
 $navyblue : #00004c;
 
 #navMenu {
-      a:nth-child(1) {
+      a:last-child {
         color: #50A6C2;
       }
 }
@@ -41,7 +41,7 @@ $navyblue : #00004c;
 .feedback-input {
   opacity:0.9;
   color:$navyblue;
-  font-family: 'Brandon Grotesque', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   font-weight:400;
   font-size: 20px;
   border-radius: 0;
@@ -120,7 +120,7 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-  font-family: 'Brandon Grotesque', Helvetica,  sans-serif;
+  font-family: 'Montserrat', Helvetica,  sans-serif;
   float:left;
   width: 100%;
   border: #fbfbfb solid 4px;
