@@ -18,7 +18,7 @@ var homeBtn = document.getElementsByClassName("backHome");
 function fullDisplayOne() {
     plusBtn[0].style.display = "none";
     homeBtn[0].style.display = "block";
-    document.getElementById("newsOne").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1)");
+    document.getElementById("newsOne").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1); transition: margin-top 2s");
     document.getElementById("newsTwo").style.display = "none";
     document.getElementById("newsThree").style.display = "none";
     document.getElementById("newsFour").style.display = "none";
