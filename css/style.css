@@ -77,7 +77,8 @@ nav {
     padding: 15px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
     text-align: justify;
-    background-color: #fafaed; }
+    background-color: #fafaed;
+    display: none; }
     #content div .backHome {
       display: none;
       font-weight: bold;
@@ -117,13 +118,15 @@ nav {
       font-family: "Montserrat", Helvetica, Sans-serif;
       float: right;
       border: none;
-      box-shadow: none; }
+      box-shadow: none;
+      display: block; }
       #content div div.newsMeta:hover {
         transform: scale(1); }
     #content div div.newsPicture {
       width: 200px;
       height: 150px;
-      float: left; }
+      float: left;
+      display: block; }
       #content div div.newsPicture:hover {
         transform: scale(1); }
       #content div div.newsPicture p {
