@@ -19,8 +19,11 @@ function fullDisplayOne() {
     plusBtn[0].style.display = "none";
     homeBtn[0].style.display = "block";
     document.getElementById("newsOne").setAttribute("style","width:1000px; height:500px; display:block; transform:scale(1)");
+    document.getElementById("newsTwo").classList.remove("hidden");
     document.getElementById("newsTwo").style.display = "none";
+    document.getElementById("newsThree").classList.remove("hidden");
     document.getElementById("newsThree").style.display = "none";
+    document.getElementById("newsFour").classList.remove("hidden");
     document.getElementById("newsFour").style.display = "none";
 }
 
@@ -53,7 +56,8 @@ function fullDisplayFour() {
 
 /* ++++++++++++ DISPLAY PROGRESSIF DES NEWS ++++++ */
 
-/* !!!!!!! A RECTIFIER : Apparition des div à l'exécution de la fonction fullDisplay() */
+/* !!!!!!! A RECTIFIER : Apparition des div à l'exécution de la fonction fullDisplay()
+Voir lignes 22/24/26 JS - 101/102 SCSS - 30/45/57/69 html */
 $(function() {
     // fonction ci-dessous
     showDiv();

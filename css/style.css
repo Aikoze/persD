@@ -77,8 +77,9 @@ nav {
     padding: 15px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
     text-align: justify;
-    background-color: #fafaed;
-    display: none; }
+    background-color: #fafaed; }
+    #content div .hidden {
+      display: none; }
     #content div .backHome {
       display: none;
       font-weight: bold;
