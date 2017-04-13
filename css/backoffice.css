@@ -1,0 +1,70 @@
+body{
+  background-color: white;
+  font-family: ubuntu;
+}
+
+h1{
+  background-color: #1d212b;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+h3{
+
+  font-size: 25px;
+}
+
+
+/* CSS Input */
+
+input[type="text"]{
+  height: 20px,
+}
+
+/* CSS button */
+
+button{
+  background-color: black;
+  color: white;
+  font-family: ubuntu;
+  border: none;
+  height: 22px;
+}
+
+button:hover {
+    background-color: #4F4CCB;
+    color: white;
+}
+
+
+.error {
+  height: 50px;
+  width: 100%;
+  margin: 50px auto;
+
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #FF3333;
+  color: white;
+  background-color: #FF8787;
+  border-radius: 10px;
+}
+.success {
+  height: 50px;
+  width: 100%;
+  margin: 50px auto;
+
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #109536;
+  color: #ffffff;
+  background-color: #5ecc62;
+  border-radius: 10px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
