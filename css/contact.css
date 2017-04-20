@@ -1,5 +1,7 @@
 #navMenu a:last-child {
   color: #50A6C2; }
+#navMenu a:first-child {
+  color: white !important; }
 
 #feedback-page {
   text-align: center; }
